@@ -2,33 +2,34 @@ import { Link } from 'react-router-dom';
 
 const MainPage = () => {
   return (
-    <div className="bg-gradient-to-br from-pink-50 via-white to-indigo-100 min-h-screen flex items-center justify-center px-4 py-10">
-      <div className="max-w-xl w-full bg-white rounded-2xl shadow-xl p-8">
-        <h1 className="text-4xl font-extrabold text-center text-indigo-700 mb-8 tracking-tight">
+    <div className="min-h-screen flex items-center justify-center px-4 py-10 bg-[#f6e5e5] font-sans">
+      <div className="w-full max-w-xl bg-white rounded-3xl shadow-2xl p-8 sm:p-10 text-center">
+        <h1 className="text-3xl sm:text-5xl font-bold text-[#352961] mb-8 tracking-tight">
           📘 My React Tasks
         </h1>
 
-        <nav className="space-y-6">
+        <nav className="space-y-4">
           <Link
-            to="./components/Task-1.tsx"
-            className="block rounded-xl p-5 bg-indigo-500 text-white text-xl font-semibold shadow-md hover:bg-indigo-600 transition duration-300 ease-in-out"
+            to="./Task1"
+            className="block rounded-xl p-5 bg-[#e6b2c6] text-[#352961] text-lg sm:text-xl font-semibold shadow-md hover:brightness-110 transition"
           >
-            Task 1
+            🚍 Task 1: Passenger Calculator
           </Link>
 
           <Link
-            to="./components/Task-2.tsx"
-            className="block rounded-xl p-5 bg-pink-500 text-white text-xl font-semibold shadow-md hover:bg-pink-600 transition duration-300 ease-in-out"
+            to="/task2"
+            className="block rounded-xl p-5 bg-[#774181] text-white text-lg sm:text-xl font-semibold shadow-md hover:brightness-110 transition"
           >
-            Task 2
+            📅 Task 2: Forest by Month
           </Link>
         </nav>
 
-        <p className="text-center text-#8e8c8c-500 text-sm mt-10">
+        <p className="text-center text-[#774181] text-sm mt-10">
           Built with 💙 by Olha
         </p>
       </div>
     </div>
   );
 };
+
 export default MainPage;
