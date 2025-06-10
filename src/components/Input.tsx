@@ -26,7 +26,7 @@ const Input = () => {
         <input
           type="password"
           id="password"
-          placeholder="••••••••"
+          placeholder="•••••••"
           className="w-full p-3 border border-[#e6b2c6] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#774181] transition"
         />
       </div>
