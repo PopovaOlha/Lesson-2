@@ -15,3 +15,28 @@ export const ERROR_OTHER = {
   message: '❌ Incorrect login or password!',
   color: 'red',
 };
+
+export const CLASS_BUSINESS = 'business';
+export const CLASS_ECONOMY = 'economy';
+
+export const TICKET_OPTIONS = [
+  { value: '', label: 'Select ticket class' },
+  { value: CLASS_BUSINESS, label: 'Business Class' },
+  { value: CLASS_ECONOMY, label: 'Economy Class' },
+];
+
+export const BACKGROUND_IMAGES = {
+  [CLASS_BUSINESS]: './images/business.jpg',
+  [CLASS_ECONOMY]: './images/sky.webp',
+};
+
+export const BUSINESS_OPTIONS = {
+  newspapers: '📰 Financial Times',
+  drinks: '🥃 Cognac',
+  snacks: '🧀 Cheese',
+};
+
+export const ECONOMY_OPTIONS = {
+  beers: ['🍺 Lager', '🍻 IPA', '🍶 Light Beer'],
+  chips: '🥔 Potato Chips',
+};
