@@ -7,6 +7,7 @@ import {
   BUSINESS_OPTIONS,
   ECONOMY_OPTIONS,
 } from '../constants';
+import { Link } from 'react-router-dom';
 
 const Task2 = () => {
   const [ticketClass, setTicketClass] = useState('');
@@ -25,13 +26,19 @@ const Task2 = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-4 py-10 bg-gradient-to-br from-[#f6e5e5] to-[#fff8f8] dark:from-[#1e1e2f] dark:to-[#2b2b40] font-sans">
       <div
-        className="min-h-screen flex items-center justify-center px-6 py-10 bg-cover bg-center transition-colors"
+        className="min-h-screen flex flex-col  items-center justify-center px-6 py-10 bg-cover bg-center transition-colors"
         style={{
           backgroundImage: ticketClass
             ? `url(${BACKGROUND_IMAGES[ticketClass as keyof typeof BACKGROUND_IMAGES]})`
             : 'none',
         }}
       >
+        <Link
+          to="/"
+          className="pb-4 text-purple-500 hover:text-purple-700 transition"
+        >
+          Back
+        </Link>
         <div className="bg-white dark:bg-gray-800 p-8 sm:p-10 rounded-3xl shadow-2xl w-full max-w-md space-y-6 backdrop-blur-md bg-opacity-90 dark:bg-opacity-80">
           <h1 className="text-3xl font-bold text-center text-purple-700 dark:text-purple-300">
             🛫 Airline Class Selector

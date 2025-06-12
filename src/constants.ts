@@ -26,8 +26,8 @@ export const TICKET_OPTIONS = [
 ];
 
 export const BACKGROUND_IMAGES = {
-  [CLASS_BUSINESS]: './images/business.jpg',
-  [CLASS_ECONOMY]: './images/sky.webp',
+  [CLASS_BUSINESS]: '/images/business.jpg',
+  [CLASS_ECONOMY]: '/images/cloud.jpg',
 };
 
 export const BUSINESS_OPTIONS = {
