@@ -40,3 +40,7 @@ export const ECONOMY_OPTIONS = {
   beers: ['🍺 Lager', '🍻 IPA', '🍶 Light Beer'],
   chips: '🥔 Potato Chips',
 };
+
+export const CORRECT_FEEDBACK = '✅ Good. Well done!';
+
+export const INCORRECT_FEEDBACK = '❌ Incorrect, try again!';

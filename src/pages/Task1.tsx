@@ -34,9 +34,9 @@ const Task1 = () => {
         Back
       </Link>
       <div className="bg-white dark:bg-gray-800 p-8 sm:p-10 rounded-3xl shadow-2xl w-full max-w-md space-y-6">
-        <h1 className="text-3xl font-bold text-center text-purple-700 dark:text-purple-300">
+        <h2 className="text-3xl font-bold text-center text-purple-700 dark:text-purple-300">
           🔐 Login Form
-        </h1>
+        </h2>
 
         {feedback.message && (
           <p
@@ -67,7 +67,7 @@ const Task1 = () => {
 
         <button
           onClick={handleSubmit}
-          className="w-full mt-4 py-3 rounded-xl text-white bg-purple-500 hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-400 transition text-lg font-semibold"
+          className="w-full py-3 mt-4 rounded-xl text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 dark:from-purple-600 dark:to-pink-600 dark:hover:from-purple-700 dark:hover:to-pink-700 transition font-semibold text-lg shadow-md"
         >
           Submit
         </button>

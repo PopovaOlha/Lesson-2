@@ -40,9 +40,9 @@ const Task2 = () => {
           Back
         </Link>
         <div className="bg-white dark:bg-gray-800 p-8 sm:p-10 rounded-3xl shadow-2xl w-full max-w-md space-y-6 backdrop-blur-md bg-opacity-90 dark:bg-opacity-80">
-          <h1 className="text-3xl font-bold text-center text-purple-700 dark:text-purple-300">
+          <h2 className="text-3xl font-bold text-center text-purple-700 dark:text-purple-300">
             🛫 Airline Class Selector
-          </h1>
+          </h2>
 
           <label className="block text-sm font-semibold text-gray-700 dark:text-gray-300 mb-1">
             Choose your class

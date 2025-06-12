@@ -27,7 +27,7 @@ const MainPage = () => {
             to="/task3"
             className="block rounded-xl p-5 bg-[#e6b2c6] dark:bg-[#a34a74]  text-gray-800 dark:text-white text-lg sm:text-xl font-semibold shadow-md hover:brightness-110 transition"
           >
-            💼💰 Employee Salary List
+            📚🧠 Vocabulary Trainer
           </Link>
         </nav>
 
