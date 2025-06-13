@@ -13,9 +13,9 @@ export const vocabularyItems = [
   },
   {
     id: 3,
-    emoji: '⚽️',
-    wordEn: 'Ball',
-    wordUa: 'М’яч',
+    emoji: '🌸',
+    wordEn: 'Flower',
+    wordUa: 'Квітка',
   },
   {
     id: 4,

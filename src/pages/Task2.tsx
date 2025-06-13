@@ -80,6 +80,9 @@ const Task2 = () => {
                 />
                 Newspaper {BUSINESS_OPTIONS.newspapers}
               </label>
+              {options.newspaper && (
+                <div>Thanks for your choise! Enjoy your reading! 😊</div>
+              )}
 
               <label className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-200">
                 <input
@@ -97,9 +100,10 @@ const Task2 = () => {
                     checked={options.snack}
                     onChange={() => handleOptionChange('snack', !options.snack)}
                   />
-                  Snack? {BUSINESS_OPTIONS.snacks}
+                  Do you want some Snacks? {BUSINESS_OPTIONS.snacks}
                 </label>
               )}
+              {options.snack && <div>Enjoy your snack! 😊</div>}
             </div>
           )}
 
@@ -131,6 +135,7 @@ const Task2 = () => {
               </label>
             </div>
           )}
+          {options.chips && <div>Enjoy your chips! 😊</div>}
         </div>
       </div>
     </div>
