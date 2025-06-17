@@ -2,37 +2,41 @@ import { Link } from 'react-router-dom';
 
 const MainPage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-10 bg-gradient-to-br from-[#f6e5e5] to-[#fff8f8] dark:from-[#1e1e2f] dark:to-[#2b2b40] font-sans">
-      <div className="w-full max-w-xl bg-white dark:bg-[#2f2f44] rounded-3xl shadow-2xl p-8 sm:p-10 text-center transition-colors">
-        <h1 className="text-3xl sm:text-5xl font-bold  text-purple-700 dark:text-purple-300 mb-8 tracking-tight">
-          📘 My React Tasks
-        </h1>
+    <div className="min-h-screen flex items-center justify-center bg-[#2b2d31] text-white font-sans px-4 py-10">
+      <div className="w-full max-w-2xl bg-[#313338] rounded-3xl shadow-2xl p-10 space-y-8">
+        <div className="text-center">
+          <h1 className="text-4xl font-extrabold text-[#5865F2] tracking-tight">
+            React Projects Hub
+          </h1>
+          <p className="text-gray-400 mt-2 text-sm">
+            Interactive tasks built with React & Tailwind 💻
+          </p>
+        </div>
 
         <nav className="space-y-4">
           <Link
             to="/task1"
-            className="block rounded-xl p-5 bg-[#e6b2c6] dark:bg-[#a34a74]  text-gray-800 dark:text-white text-lg sm:text-xl font-semibold shadow-md hover:brightness-110 transition"
+            className="block w-full bg-[#40444b] hover:bg-[#5865f2] hover:text-white text-left text-sm sm:text-base px-6 py-4 rounded-xl transition font-medium"
           >
-            🎯🔐 Conditional Login Feedback
+            🔐 Conditional Login Feedback
           </Link>
 
           <Link
             to="/task2"
-            className="block rounded-xl p-5 bg-[#774181] dark:bg-[#5e3466]  text-gray-800 dark:text-white text-lg sm:text-xl font-semibold shadow-md hover:brightness-110 transition"
+            className="block w-full bg-[#40444b] hover:bg-[#5865f2] hover:text-white text-left text-sm sm:text-base px-6 py-4 rounded-xl transition font-medium"
           >
-            🛫🍷 Airline Class Selector
+            🛫 Airline Class Selector
           </Link>
 
           <Link
             to="/task3"
-            className="block rounded-xl p-5 bg-[#e6b2c6] dark:bg-[#a34a74]  text-gray-800 dark:text-white text-lg sm:text-xl font-semibold shadow-md hover:brightness-110 transition"
+            className="block w-full bg-[#40444b] hover:bg-[#5865f2] hover:text-white text-left text-sm sm:text-base px-6 py-4 rounded-xl transition font-medium"
           >
-            📚🧠 Vocabulary Trainer
+            📚 Vocabulary Trainer
           </Link>
         </nav>
-
-        <p className="text-center text-[#774181] dark:text-[#bfa0d6] text-sm mt-10">
-          Built with 💙 by Olha
+        <p className="text-center text-sm text-gray-500 pt-4 border-t border-gray-700">
+          Built with ⚛️ by Olha • Inspired by Discord
         </p>
       </div>
     </div>
