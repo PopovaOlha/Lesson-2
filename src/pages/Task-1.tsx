@@ -1,22 +1,13 @@
-import { useState } from 'react';
-import InputField from '../components/InputField';
+import GeneralList from '../components/task-1/GeneralList';
 
 const Task1 = () => {
-  const [value, setValue] = useState('');
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setValue(e.target.value);
-  };
   return (
-    <div>
-      <InputField
-        label="Enter the length"
-        type="number"
-        value={value}
-        onChange={handleChange}
-        name="length"
-        placeholder="•••••••"
-      />
+    <div className="min-h-screen bg-[#2b2d31] flex items-center justify-center px-4 py-10">
+      <div className="w-full max-w-md bg-[#1e1f22] p-6 rounded-2xl shadow-lg space-y-6">
+        <GeneralList />
+      </div>
     </div>
   );
 };
+
 export default Task1;

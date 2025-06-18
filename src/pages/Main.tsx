@@ -36,7 +36,7 @@ const MainPage = () => {
           </Link>
         </nav>
         <p className="text-center text-sm text-gray-500 pt-4 border-t border-gray-700">
-          Built with ⚛️ by Olha • Inspired by Discord
+          Built with ⚛️ by Olha
         </p>
       </div>
     </div>
