@@ -18,21 +18,21 @@ const MainPage = () => {
             to="/task1"
             className="block w-full bg-[#40444b] hover:bg-[#5865f2] hover:text-white text-left text-sm sm:text-base px-6 py-4 rounded-xl transition font-medium"
           >
-            🔐 Conditional Login Feedback
+            👥🎯 Competition Participant Selector
           </Link>
 
           <Link
             to="/task2"
             className="block w-full bg-[#40444b] hover:bg-[#5865f2] hover:text-white text-left text-sm sm:text-base px-6 py-4 rounded-xl transition font-medium"
           >
-            🛫 Airline Class Selector
+            🕺💃 Dance Pair Maker
           </Link>
 
           <Link
             to="/task3"
             className="block w-full bg-[#40444b] hover:bg-[#5865f2] hover:text-white text-left text-sm sm:text-base px-6 py-4 rounded-xl transition font-medium"
           >
-            📚 Vocabulary Trainer
+            🔍👨‍💼 Employee Finder
           </Link>
         </nav>
         <p className="text-center text-sm text-gray-500 pt-4 border-t border-gray-700">
